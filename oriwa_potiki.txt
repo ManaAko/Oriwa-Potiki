@@ -1,0 +1,74 @@
+<iframe 
+  src="https://elevenlabs.io/ai-agent/embed/full?projectId=agent_01jvg4369jf6s84ex7b1kwwmja" 
+  width="100%" 
+  height="600px" 
+  frameborder="0" 
+  allow="microphone *"
+  style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
+></iframe>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Oriwa Voice Orb</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .orb-button {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: radial-gradient(circle at center, #4fd1c5, #285e61);
+      box-shadow: 0 0 60px 20px rgba(79, 209, 197, 0.6);
+      animation: pulse 2s infinite ease-in-out;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 3rem;
+      color: white;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 60px 20px rgba(79, 209, 197, 0.4);
+      }
+      50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 90px 30px rgba(79, 209, 197, 0.7);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 60px 20px rgba(79, 209, 197, 0.4);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Orb button linking to full-screen ElevenLabs agent -->
+  <a
+    class="orb-button"
+    href="https://elevenlabs.io/app/conversational-ai/talk-to/qIZPCQ6xjHQrI1Wa2zw6"
+    target="_blank"
+    title="Talk to Oriwa"
+  >
+    🎤
+  </a>
+</body>
+</html>
+
+
